@@ -10,7 +10,7 @@ A RESTful API developed in **Java** using **Spring Boot** and **MySQL**. This AP
 
 The project is organized into the following components:
 
-![done](https://github.com/user-attachments/assets/66cf8245-6c36-43ef-83b8-f16279048ab9)
+![trueee](https://github.com/user-attachments/assets/f758c789-910c-47f6-bb13-f9c5965985bb)
 
 ## API Endpoints
 
