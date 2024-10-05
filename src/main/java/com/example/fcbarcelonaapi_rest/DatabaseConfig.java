@@ -16,7 +16,7 @@ class DatabaseConfig {
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/fcbarcelona");
         dataSource.setUsername("root");
-        dataSource.setPassword("kgyspy10230");
+        dataSource.setPassword("");
         return dataSource;
     }
 
