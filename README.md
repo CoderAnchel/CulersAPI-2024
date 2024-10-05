@@ -1,4 +1,4 @@
-# FC Barcelona API
+# FC Barcelona API ♥️💙
 
 ![image](https://github.com/user-attachments/assets/0b6bc082-e587-4cd2-81bf-2974b3073d22)
 
@@ -49,6 +49,6 @@ The database schema consists of the following table (Example):
 
 players: Stores information about each player, including their name, jersey number, nationality, and other relevant details.
 
-## Conclusion
+## Conclusion 🎉
 
 In summary, the adoption of dynamic endpoints in the FC Barcelona API marks a considerable step forward in API design, offering improved flexibility, a better user experience, and a foundation for future expansion compared to the previous Express implementation. This architectural shift not only streamlines data access but also aligns with best practices in API development.
