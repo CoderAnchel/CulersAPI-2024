@@ -1,4 +1,4 @@
-# FC Barcelona API ❤️💙
+# FC Barcelona API ⚽️
 
 ![image](https://github.com/user-attachments/assets/0b6bc082-e587-4cd2-81bf-2974b3073d22)
 
