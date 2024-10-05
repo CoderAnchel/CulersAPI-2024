@@ -35,3 +35,9 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Ignorar application.properties
+src/main/resources/application.properties
+
+# Ignorar DatabaseConfig.java
+src/main/java/com/tu/proyecto/config/DatabaseConfig.java

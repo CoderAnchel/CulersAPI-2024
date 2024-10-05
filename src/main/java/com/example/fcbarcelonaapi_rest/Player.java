@@ -3,13 +3,13 @@ package com.example.fcbarcelonaapi_rest;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Player {
+    int id;
     String name;
     String nationality;
     String image;
     String weight;
     String height;
     String dateOfBirth;
-    String debut;
     int number;
     int appearances;
     int cleansheets;
@@ -17,21 +17,35 @@ public class Player {
     int goals;
     int assists;
 
-    public Player(String name, String nationality, String image, String weight, String height, String dateOfBirth,String debut, int number,int appearances,int cleansheets,int saves,int goals,
+    public Player() {
+
+    }
+
+    public Player(int id,String name, String nationality, String image, String weight, String height, String dateOfBirth, int number,int appearances,int cleansheets,int saves,int goals,
     int assists ) {
+        this.id = id;
         this.name = name;
         this.nationality = nationality;
         this.image = image;
         this.weight = weight;
         this.height = height;
         this.dateOfBirth = dateOfBirth;
-        this.debut = debut;
         this.number = number;
         this.appearances = appearances;
         this.cleansheets = cleansheets;
         this.saves = saves;
         this.goals = goals;
         this.assists = assists;
+    }
+    
+    @JsonProperty
+    public int getId() {
+        return id;
+    }
+
+    @JsonProperty
+    public void setId(int id) {
+        this.id = id;
     }
 
     @JsonProperty
@@ -132,6 +146,25 @@ public class Player {
     @JsonProperty
     public void setSaves(int saves) {
         this.saves = saves;
+    }
+
+    public int getGoals() {
+        return goals;
+    }
+
+    @JsonProperty
+    public void setGoals(int goals) {
+        this.goals = goals;
+    }
+
+    @JsonProperty
+    public int getAssists() {
+        return assists;
+    }
+
+    @JsonProperty
+    public void setAssists(int Assists) {
+        this.assists = assists;
     }
 
 }
