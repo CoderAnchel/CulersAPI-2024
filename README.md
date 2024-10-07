@@ -2,8 +2,8 @@
 
 ![image](https://github.com/user-attachments/assets/0b6bc082-e587-4cd2-81bf-2974b3073d22)
 
-
 ## Welcome to the FC Barcelona API!
+
 A RESTful API developed in **Java** using **Spring Boot** and **MySQL**. This API provides endpoints for managing and retrieving information about FC Barcelona players, surpassing simpler implementations (https://github.com/CoderAnchel/FC-Barcelona-API) and offering a robust and scalable solution.This is my first API project in a more structured way with ORM and an MVC architecture. I hope to improve soon with new APIs that utilize tokens and are more secure, but I feel this is a good starting point.
 
 ## Project Structure
